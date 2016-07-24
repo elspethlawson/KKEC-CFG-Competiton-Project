@@ -3,6 +3,7 @@ div#wrapperHeader {
  height;200px; 
  background:url(Background_image.jpg) repeat-x 0 0;
  text-align:center;
+
 }
 
 div#wrapperHeader div#header {
@@ -20,10 +21,18 @@ div#wrapperHeader div#header img {
 
 .title
  { 
-  color: black; 
-  font-family:'Lobster'; 
-  font-size: 30pt;
+  color:#F0FFFF; 
+  font-family:'Lobster', cursive; 
+  font-size: 85pt;
   font-weight:bolder;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 input {
