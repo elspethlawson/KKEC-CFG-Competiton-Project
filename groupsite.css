@@ -47,10 +47,12 @@ input[type="submit"] {
 ul {
 	padding: 10px;
 	background: lightblue;
+  font-family:'Lobster', cursive;
 }
 li {
 	display: inline;
 	padding: 0px 10px 0px 10px;
+  font-size: 28px;
 }
 
 body {
