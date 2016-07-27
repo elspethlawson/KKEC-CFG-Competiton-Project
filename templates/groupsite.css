@@ -1,32 +1,3 @@
-body {
-	text-align: center;
-	background: url("london.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: black;
-	font-family: helvetica;
-}
-}
-input {
-	border: 0;
-	padding: 10px;
-	font-size: 18px;
-}
-input[type="submit"] { 
-	background: lightblue;
-	color: white;
-}
-ul {
-	padding: 10px;
-	background: lightblue;
-}
-li {
-	display: inline;
-	padding: 0px 10px 0px 10px;
-}
-img {
-	margin: 40px 0px 0px 0px;
-	border: 5px solid black;
-	border-radius: 5px;
+.first {
+	background-image: url('chicken.jpg');
 }
