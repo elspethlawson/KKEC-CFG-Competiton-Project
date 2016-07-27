@@ -40,6 +40,14 @@ h1{
 	text-align:center;
 }
 
+p {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  font-family:'Lobster', cursive;
+}
 
 input {
 	border: 0;
@@ -59,9 +67,14 @@ li {
 	display: inline;
 	padding: 0px 10px 0px 10px;
   font-size: 28px;
+  font-family:'Lobster', cursive;
 }
 }
 li a {
     display: block;
     width: 60px;
+}
+
+a:hover{
+color: orange;
 }
